@@ -1,0 +1,17 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "parser": "typescript-eslint-parser",
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "plugins": [
+        "typescript"
+    ],
+    "rules": {
+        "no-console": ["error", { "allow": ["log"] }]
+    }
+}

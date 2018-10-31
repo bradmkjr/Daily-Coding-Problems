@@ -1,0 +1,27 @@
+{
+  "name": "daily-coding-problems",
+  "version": "1.0.1",
+  "description": "Here's your coding interview problem for today.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradmkjr/Daily-Coding-Problems.git"
+  },
+  "keywords": [
+    "daily",
+    "coding",
+    "problems"
+  ],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bradmkjr/Daily-Coding-Problems/issues"
+  },
+  "homepage": "https://github.com/bradmkjr/Daily-Coding-Problems#readme",
+  "devDependencies": {
+    "eslint-plugin-typescript": "^0.12.0",
+    "typescript-eslint-parser": "^20.1.0"
+  }
+}

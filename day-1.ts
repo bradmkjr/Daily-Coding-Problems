@@ -48,4 +48,4 @@ function findMatchingSum(list, k){
 
 const match = findMatchingSum( list, k );
 
-console.log( 'Sum exits in list ' + match );
+console.log( 'Sum k exists in list ' + match );

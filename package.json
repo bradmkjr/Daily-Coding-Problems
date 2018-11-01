@@ -22,6 +22,6 @@
   "homepage": "https://github.com/bradmkjr/Daily-Coding-Problems#readme",
   "devDependencies": {
     "eslint-plugin-typescript": "^0.12.0",
-    "typescript-eslint-parser": "^20.1.0"
+    "typescript-eslint-parser": "^20.1.1"
   }
 }

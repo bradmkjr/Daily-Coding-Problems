@@ -22,7 +22,7 @@ console.log( 'Random List ' + list );
 
 function productArray(list: number[]){
 	let products: number[] = new Array();
-	
+
 	const listLength: number = list.length;
 
 	for ( let x:number = 0; x < listLength; x++ ) {
@@ -30,12 +30,12 @@ function productArray(list: number[]){
 		products.push(seed);
 		for ( let z = 0; z < listLength; z++ ) {
 			if( x !== z ){
-				products[x] *= list[z];	
+				products[x] *= list[z];
 			}
 		}
 
 	}
-		
+
 	return products;
 }
 

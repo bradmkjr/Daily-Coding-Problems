@@ -34,8 +34,6 @@ let count: number;
 let treeNodes: TreeNode;
 
 function crawlTree(treeNodes: TreeNode ){
-	let unival: boolean = true;
-
 	let left = null;
 	let right = null;
 
@@ -46,7 +44,7 @@ function crawlTree(treeNodes: TreeNode ){
 	if( undefined !== treeNodes.right && null !== treeNodes.right && treeNodes.right instanceof TreeNode  ){
 		right = crawlTree( treeNodes.right );
 	}
-	
+
 	if ( right === false || left === false ){
 		return false;
 	} else if ( left === treeNodes.val && right === treeNodes.val ) {
